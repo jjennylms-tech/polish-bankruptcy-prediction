@@ -1,0 +1,33 @@
+# Python 3.13
+# Polish Bankruptcy Prediction — MSIN0097 Predictive Analytics Coursework
+# Install with: pip install -r requirements.txt
+
+# Core data
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.1
+
+# Machine learning
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+xgboost==3.2.0
+shap==0.50.0
+
+# Deep learning
+tensorflow==2.21.0
+keras==3.13.2
+
+# NOTE (macOS only): XGBoost requires the OpenMP runtime.
+# If you get a libxgboost.dylib error, install Homebrew then run:
+#   brew install libomp
+# Or copy libomp.dylib from sklearn's bundled dylibs (see README.md).
+
+# Visualisation
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Jupyter
+jupyter==1.1.1
+nbconvert==7.17.0
+nbformat==5.10.4
+ipykernel==7.2.0
